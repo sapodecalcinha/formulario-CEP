@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨Localização✨</title>
+    <link rel="stylesheet" href="cep.css">
+    <script src="local.js"></script>
+</head>
+<body>
+    <section class="cadastro">
+        <div class="teste">
+            <h1>🌸Localização🌸</h1>
+            <form class="form" name="brita" action="">
+                <label for="cep">Informe o CEP</label>
+                <input class="input" onfocusout="cepp()" type="text" name="cep" id="cep">
+                <span class="errortext" id="grama"></span>
+                <label for="rua">Rua</label>
+                <input class="input" type="text" name="rua" id="endereco">
+                <label for="bairro">Bairro</label>
+                <input class="input" type="text" name="bairro" id="bairro">
+                <div class="testedois">
+                    <div>
+                        <div class="form">
+                            <label for="cidade">Cidade</label>
+                            <input class="inputdois" type="text" name="cidade" id="cidade">
+                        </div>
+                        <div class="form">
+                            <label for="ibge">IBGE</label>
+                            <input class="inputdois" type="text" name="ibge" id="ibge">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="form">
+                            <label for="uf">UF</label>
+                            <input class="inputtres" type="text" name="uf" id="estado">
+                        </div>
+                        <div class="formdois">
+                            <label for="ddd">DDD</label>
+                            <input class="inputtres" type="text" name="ddd" id="ddd">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
