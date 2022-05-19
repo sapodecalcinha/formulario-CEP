@@ -32,7 +32,7 @@ const cepValido = (cep) => cep.length == 8 && /^[0-9]+$/.test(cep);
 async function cepp() {
     limparFormulario();
     const cep = document.getElementById('cep').value;
-    const url = `http://viacep.com.br/ws/${cep}/json/`;
+    const url = `https://viacep.com.br/ws/${cep}/json/`;
     if (cepValido(cep)) {
         reticencias();
         const dados = await fetch(url);
